@@ -13,9 +13,28 @@ include_once "header.php";
     <section class="py-5">
         <div class="container">
             <div class="row text-center">
-                <form method="post">
+            <form method="post" action="login.php">
+            <div class="row justify-content-md-center">
+                <div class="col-md-10">
+                    <div class="card">
+                        <div class="card-body">
 
-                </form
+                           
+                            <div class="mb-3">
+                                <label for="username" class="form-label fw-medium">Username</label>
+                                <input type="text" class="form-control" name="username" placeholder="Please enter your username">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label fw-medium">Password</label>
+                                <input type="password" class="form-control" name="password" placeholder="Please enter your password">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
                
             </div>
         </div>
